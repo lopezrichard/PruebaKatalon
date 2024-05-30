@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuite" time="18.648" tests="1" failures="0" errors="0">
+   <testsuite name="LoginSuite" tests="1" failures="0" errors="0" time="18.648" skipped="0" timestamp="30-05-2024T11:42:10" hostname="richard - localhost" id="Test Suites/LoginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/richard/git/PruebaKatalon/Reports/20240530_114204/LoginSuite/20240530_114205"/>
+         <property name="logFiles" value="/Users/richard/git/PruebaKatalon/Reports/20240530_114204/LoginSuite/20240530_114205/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-ImagenTest.png"/>
+         <property name="hostName" value="richard - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="4373ab26513da29093737a458025ce3b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="18.575" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[30-05-2024T11:42:10 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+30-05-2024T11:42:10 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+30-05-2024T11:42:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-05-2024T11:42:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-05-2024T11:42:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+30-05-2024T11:42:22 - [TEST_STEP][PASSED] - setText(findTestObject("userInput"), "Admin"): Text 'Admin' is set on object 'Object Repository/userInput'
+
+30-05-2024T11:42:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/userInput'
+
+30-05-2024T11:42:23 - [TEST_STEP][PASSED] - setText(findTestObject("passwordInput"), "admin123"): Text 'admin123' is set on object 'Object Repository/passwordInput'
+
+30-05-2024T11:42:24 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/passwordInput'
+
+30-05-2024T11:42:24 - [TEST_STEP][PASSED] - click(findTestObject("loginbutton")): Object: 'Object Repository/loginbutton' is clicked on
+
+30-05-2024T11:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbutton' is clicked on
+
+30-05-2024T11:42:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("dashboardTitle")): Object 'Object Repository/dashboardTitle' is visible
+
+30-05-2024T11:42:27 - [MESSAGE][PASSED] - Object 'Object Repository/dashboardTitle' is visible
+
+30-05-2024T11:42:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("ImagenTest"): Taking screenshot successfully
+
+30-05-2024T11:42:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T11:42:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-ImagenTest.png]]
+
+30-05-2024T11:42:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-05-2024T11:42:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-05-2024T11:42:10 - [TEST_SUITE][PASSED] - LoginSuite: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
