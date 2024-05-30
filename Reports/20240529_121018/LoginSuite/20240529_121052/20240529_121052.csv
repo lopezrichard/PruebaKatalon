@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginSuite,Chrome 125.0.0.0,,,29-05-2024 12:10:56,29-05-2024 12:11:44,48.179s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 125.0.0.0,,,29-05-2024 12:10:56,29-05-2024 12:11:44,47.920s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 125.0.0.0,,,29-05-2024 12:10:57,29-05-2024 12:11:21,24.380s,PASSED
+"setText(findTestObject(""userInput""), ""Admin"")",Chrome 125.0.0.0,,,29-05-2024 12:11:21,29-05-2024 12:11:29,7.706s,PASSED
+"setText(findTestObject(""passwordInput""), ""admin123"")",Chrome 125.0.0.0,,,29-05-2024 12:11:29,29-05-2024 12:11:30,1.047s,PASSED
+"click(findTestObject(""loginbutton""))",Chrome 125.0.0.0,,,29-05-2024 12:11:30,29-05-2024 12:11:30,0.614s,PASSED
+"verifyElementVisible(findTestObject(""dashboardTitle""))",Chrome 125.0.0.0,,,29-05-2024 12:11:30,29-05-2024 12:11:44,13.562s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 12:11:44,29-05-2024 12:11:44,0.120s,PASSED

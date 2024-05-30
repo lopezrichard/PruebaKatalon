@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -18,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
 WebUI.setText(findTestObject('userInput'), 'Admin')
+
 WebUI.setText(findTestObject('passwordInput'), 'admin123')
+
 WebUI.click(findTestObject('loginbutton'))
+
 WebUI.verifyElementVisible(findTestObject('dashboardTitle'))
+
+WebUI.takeScreenshotAsCheckpoint('ImagenTest')
+
 WebUI.closeBrowser()
+

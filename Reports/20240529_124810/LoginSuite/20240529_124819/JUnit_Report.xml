@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuite" time="35.384" tests="1" failures="0" errors="0">
+   <testsuite name="LoginSuite" tests="1" failures="0" errors="0" time="35.384" skipped="0" timestamp="29-05-2024T12:48:24" hostname="richard - localhost" id="Test Suites/LoginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/richard/git/PruebaKatalon/Reports/20240529_124810/LoginSuite/20240529_124819"/>
+         <property name="logFiles" value="/Users/richard/git/PruebaKatalon/Reports/20240529_124810/LoginSuite/20240529_124819/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="richard - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="eb30b5c4b6fb7b9e85206779b99edde7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="35.141" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[29-05-2024T12:48:24 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+29-05-2024T12:48:24 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+29-05-2024T12:48:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T12:48:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T12:48:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+29-05-2024T12:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("userInput"), "Admin"): Text 'Admin' is set on object 'Object Repository/userInput'
+
+29-05-2024T12:48:44 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/userInput'
+
+29-05-2024T12:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("passwordInput"), "admin123"): Text 'admin123' is set on object 'Object Repository/passwordInput'
+
+29-05-2024T12:48:47 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/passwordInput'
+
+29-05-2024T12:48:47 - [TEST_STEP][PASSED] - click(findTestObject("loginbutton")): Object: 'Object Repository/loginbutton' is clicked on
+
+29-05-2024T12:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/loginbutton' is clicked on
+
+29-05-2024T12:48:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("dashboardTitle")): Object 'Object Repository/dashboardTitle' is visible
+
+29-05-2024T12:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/dashboardTitle' is visible
+
+29-05-2024T12:48:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T12:48:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2024T12:48:24 - [TEST_SUITE][PASSED] - LoginSuite: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
