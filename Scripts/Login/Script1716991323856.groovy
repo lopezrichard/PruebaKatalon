@@ -22,6 +22,7 @@ WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/
 WebUI.setText(findTestObject('userInput'), 'Admin')
 
 WebUI.setText(findTestObject('passwordInput'), 'admin123')
+WebUI.waitForElementVisible(findTestObject('loginbutton'), 10)
 
 WebUI.click(findTestObject('loginbutton'))
 
